@@ -12,9 +12,9 @@ To run this script, simply execute the following command in a terminal.
 
 ### Flags
 
-`--quantity <integer>`: Number of wallets to generate. Replace <integer> with the quantity you desire.
-`--netowork <network_id>`: Replace <network_id> with 0 for Preview testnet. Default value is 1, for mainnet.
-`--verbose`: Prints additional information to console
+* `--quantity <integer>`: Number of wallets to generate. Replace <integer> with the quantity you desire.
+* `--netowork <network_id>`: Replace <network_id> with 0 for Preview testnet. Default value is 1, for mainnet.
+* `--verbose`: Prints additional information to console
 
 ### Note
 
