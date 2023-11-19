@@ -58,8 +58,8 @@ def fillTemplate(quantity, wallet_info, templateFile, config, verbose=False):
       
 
       print('Set Up Wallet #{}: {}/3 on Page {}/{}'.format(wallet_number+1, num_wallet_on_page+1, pageNum+1, numPages))
+      if wallet_number == quantity - 1: break
       wallet_number = wallet_number + 1
-      if wallet_number-1 == quantity: break
     can.save()
 
     # Move to the beginning of the StringIO buffer
