@@ -78,6 +78,6 @@ def fillTemplate(quantity, wallet_info, templateFile, config, verbose=False):
     output.addPage(page)
 
     # Finally, write "output" to a real file
-    outputStream = open(fileName+str(pageNum+1)+".pdf", "wb")
+    outputStream = open('out/'+fileName+str(pageNum+1)+".pdf", "wb")
     output.write(outputStream)
     outputStream.close()
